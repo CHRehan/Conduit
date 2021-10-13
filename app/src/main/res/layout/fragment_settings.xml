@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/imageEdittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Image URL"
+        android:inputType="textUri" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/usernameEdittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:inputType="textUri" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/bioEdittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Short bio"
+        android:inputType="text"
+        android:lines="5" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/emailEdittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/passwordEdittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="password"
+        android:inputType="textPassword" />
+    <ProgressBar
+        android:id="@+id/settingProgressbar"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/updateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Update Settings" />
+
+
+</LinearLayout>
